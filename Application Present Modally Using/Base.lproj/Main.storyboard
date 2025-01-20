@@ -75,14 +75,28 @@
                                     <segue destination="dXP-1L-iXW" kind="presentation" id="EJh-jW-reU"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQX-w8-JuM">
+                                <rect key="frame" x="79" y="633.66666666666663" width="235" height="56"/>
+                                <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Dismiss (Geri)">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="35"/>
+                                    <color key="baseForegroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="clickDismiss:" destination="RyY-dp-Bec" eventType="touchUpInside" id="6HI-oc-sIg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="n6Z-zg-yaa"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="n36-ug-WMJ" firstAttribute="top" secondItem="n6Z-zg-yaa" secondAttribute="top" constant="211" id="4JX-0q-DaM"/>
+                            <constraint firstItem="bQX-w8-JuM" firstAttribute="centerX" secondItem="iJy-M5-fet" secondAttribute="centerX" id="FwO-ry-ZeT"/>
                             <constraint firstItem="aB0-Da-wMz" firstAttribute="centerX" secondItem="iJy-M5-fet" secondAttribute="centerX" id="HB8-WZ-QbY"/>
                             <constraint firstItem="n36-ug-WMJ" firstAttribute="centerX" secondItem="iJy-M5-fet" secondAttribute="centerX" id="Jm8-69-lyV"/>
                             <constraint firstItem="aB0-Da-wMz" firstAttribute="top" secondItem="n36-ug-WMJ" secondAttribute="bottom" constant="207" id="U3g-QP-gsX"/>
+                            <constraint firstItem="bQX-w8-JuM" firstAttribute="top" secondItem="aB0-Da-wMz" secondAttribute="bottom" constant="40" id="aZE-qe-EOh"/>
                         </constraints>
                     </view>
                 </viewController>
